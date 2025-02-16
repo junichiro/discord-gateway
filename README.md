@@ -12,7 +12,7 @@ This repository contains a Discord bot that listens for mentions and sends data 
     ```
     DISCORD_TOKEN=YOUR_DISCORD_BOT_TOKEN
     ```
-3.  **Run the bot:**
+3.  **Run the bot:**  You can specify the environment using the `NODE_ENV` environment variable.  `NODE_ENV=test node bot.js` will run in test mode, and `NODE_ENV=production node bot.js` will run in production mode.  The default is test mode.
     ```bash
     node bot.js
     ```
